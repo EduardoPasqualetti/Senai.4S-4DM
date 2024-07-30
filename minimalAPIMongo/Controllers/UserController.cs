@@ -18,6 +18,20 @@ namespace minimalAPIMongo.Controllers
             _user = mongoDbService.GetDatabase.GetCollection<User>("user");
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Post(User user)
+        {
+            try
+            {
+                _user.InsertOne(user);
+                return StatusCode(201, user);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         [HttpGet]
         public async Task<ActionResult<List<User>>> Get()
         {
@@ -33,19 +47,6 @@ namespace minimalAPIMongo.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Post(User user)
-        {
-            try
-            {
-                _user.InsertOne(user);
-                return StatusCode(201, user);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
 
         [HttpDelete("id")]
         public async Task<IActionResult> Delete(string id)

@@ -12,10 +12,27 @@ namespace minimalAPIMongo.Controllers
     public class ClientController : ControllerBase
     {
         private readonly IMongoCollection<Client> _client;
+        private readonly IMongoCollection<User> _user;
 
         public ClientController(MongoDbService mongoDbService)
         {
             _client = mongoDbService.GetDatabase.GetCollection<Client>("client");
+            _user = mongoDbService.GetDatabase.GetCollection<User>("user");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] Client client)
+        {
+            try
+            {
+                await _client.InsertOneAsync(client);
+
+                return StatusCode(201, client);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         [HttpGet]
@@ -33,30 +50,17 @@ namespace minimalAPIMongo.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Post(Client client)
-        {
-            try
-            {
-                _client.InsertOne(client);
-
-                return StatusCode(201, client);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
+        
 
         [HttpDelete("id")]
         public async Task<IActionResult> Delete(string id)
         {
             try
             {
-                var filter = Builders<Client>.Filter.Eq(x => x.Id, id);
-                await _client.DeleteOneAsync(filter);
+                var client = _client.FindOneAndDeleteAsync(x => x.Id == id);
+                return client is null ? NotFound() : StatusCode(201);
 
-                return Ok();
+                
             }
             catch (Exception e)
             {
