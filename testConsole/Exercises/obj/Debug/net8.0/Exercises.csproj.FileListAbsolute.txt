@@ -1,0 +1,15 @@
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\bin\Debug\net8.0\Exercises.exe
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\bin\Debug\net8.0\Exercises.deps.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\bin\Debug\net8.0\Exercises.runtimeconfig.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\bin\Debug\net8.0\Exercises.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\bin\Debug\net8.0\Exercises.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.AssemblyInfoInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.AssemblyInfo.cs
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.csproj.CoreCompileInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.sourcelink.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\refint\Exercises.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\Exercises.genruntimeconfig.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\testConsole\Exercises\obj\Debug\net8.0\ref\Exercises.dll
