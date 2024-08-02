@@ -9,16 +9,14 @@ namespace Exercises.Test
     public class LivroTest
     {
         [Fact]
-        public void AdicionarLivro()
+        public void TestMethodCheckBook()
         {
-          
-            Livro.LimparLivros();
-            string livro = "Dom Quixote";
+            var book = "pequeno principe";
+            var quantityOfBook = Livro.GetBookQuantity();
+            var expectedBooks = quantityOfBook + 1;
+            var quantityAfterAdd = Livro.AddBook(book);
 
-            Livro.AdicionarLivro(livro);
-            List<string> livros = Livro.ObterLivros();
-
-            Assert.Contains(livro, livros);
+            Assert.Equal(expectedBooks, quantityAfterAdd);
         }
     }
 }

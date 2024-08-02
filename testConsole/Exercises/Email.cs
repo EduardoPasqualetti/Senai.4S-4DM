@@ -8,9 +8,13 @@ namespace Exercises
 {
     public static class Email
     {
-        public static bool ValidarEmail(string email)
+        public static bool ValidateEmail(string email)
         {
-            return email.Contains("@") && email.Contains(".");
+            if (email.Contains("@") && email.Contains("."))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

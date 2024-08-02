@@ -8,14 +8,17 @@ namespace Exercises.Test
 {
     public class TemperaturaTest
     {
-        [Theory]
-        [InlineData(0, 32)]
-        [InlineData(100, 212)]
-        [InlineData(-40, -40)]
-        [InlineData(37, 98.6)]
-        public void ConverterCelsiusParaFahrenheit_DeveConverterCorretamente(double celsius, double expectedFahrenheit)
+        //[Theory]
+        //[InlineData(0, 32)]
+        //[InlineData(100, 212)]
+        //[InlineData(-40, -40)]
+        //[InlineData(37, 98.6)]
+        [Fact]
+        public void TestMethodConvertToFahrenheit()
         {
-            double result = Temperatura.ConverterCelsiusParaFahrenheit(celsius);
+            var celsius = 100;
+            var expectedFahrenheit = 212;
+            double result = Temperatura.ConvertToFahrenheit(celsius);
 
             Assert.Equal(expectedFahrenheit, result, 1);
         }

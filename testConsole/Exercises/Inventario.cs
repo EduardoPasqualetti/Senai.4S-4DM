@@ -1,12 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Exercises
 {
-    public static class Inventario
+    public class Inventario
     {
+        private static Dictionary<string, int> products = new Dictionary<string, int>();
+
+        public static  void AddProduct(string name, int quantity)
+        {
+            if (products.ContainsKey(name))
+            {
+                products[name] += quantity;
+            }
+            else
+            {
+                products[name] = quantity;
+            }
+        }
+        public static int GetProductsQuantity(string name)
+        {
+            return products.ContainsKey(name) ? products[name] : 0;
+        }
+
     }
 }

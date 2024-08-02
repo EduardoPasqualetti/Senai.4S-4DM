@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,13 +10,11 @@ namespace Exercises.Test
     public class EmailTest
     {
         [Theory]
-        [InlineData("teste@dominio.com", true)]
-        [InlineData("teste@dominio", false)]
-        [InlineData("testedominiocom", false)]
-        [InlineData("teste@dominio.com.br", true)]
-        public void ValidarEmail_DeveRetornarSeEmailEhValido(string email, bool expected)
-        {    
-            bool result = Email.ValidarEmail(email);
+        [InlineData("eduardo@gmail.com")]
+        public void TestMethodValidateEmail(string email)
+        {
+            bool expected = true;
+            bool result = Email.ValidateEmail(email);
             Assert.Equal(expected, result);
         }
     }

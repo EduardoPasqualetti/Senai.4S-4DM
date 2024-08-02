@@ -8,7 +8,7 @@ namespace Exercises
 {
     public static class Temperatura
     {
-        public static double ConverterCelsiusParaFahrenheit(double celsius)
+        public static double ConvertToFahrenheit(double celsius)
         {
             return (celsius * 9 / 5) + 32;
         }

@@ -8,20 +8,16 @@ namespace Exercises
 {
     public static class Livro
     {
-        private static List<string> livros = new List<string>();
-        public static void AdicionarLivro(string livro)
+        private static List<string> books = new List<string>();
+         public static int GetBookQuantity()
         {
-            livros.Add(livro);
+            return books.Count;
         }
 
-        public static List<string> ObterLivros()
+        public static int AddBook(string book)
         {
-            return new List<string>(livros);
-        }
-
-        public static void LimparLivros()
-        {
-            livros.Clear();
+            books.Add(book);
+            return books.Count;
         }
     }
 }
