@@ -6,7 +6,6 @@ namespace testApi
 {
     public class ProductsTest
     {
-        //Indica que o metodo e de teste de unidade
         [Fact]
         public void Get()
         {
@@ -85,14 +84,42 @@ namespace testApi
 
             var mockRepository = new Mock<IProductRepository>();
 
-            mockRepository.Setup(x => x.GetById(It.IsAny<Guid>())).Returns<Guid>(id => productList.FirstOrDefault(p => p.IdProduct == id));
+            mockRepository.Setup(x => x.GetById(It.IsAny<Guid>())).Returns<Guid>(id => productList.FirstOrDefault(p => p.IdProduct == id)!);
 
             var result = mockRepository.Object.GetById(productIdToGet);
 
-            Assert.NotNull(result);
             Assert.Equal(productIdToGet, result!.IdProduct);
             Assert.Equal("Produto 1", result.Name);
             Assert.Equal(30, result.Price);
+        }
+
+        [Fact]
+        public void Update()
+        {
+            var productIdToUpdate = Guid.NewGuid();
+            var productList = new List<Products>
+            {
+                new Products {IdProduct = productIdToUpdate, Name = "Produto 10", Price = 10},
+            };
+
+            var mockRepository = new Mock<IProductRepository>();
+
+            mockRepository.Setup(x => x.Update(It.IsAny<Guid>(), It.IsAny<Products>()))
+                .Callback<Guid, Products>((id, product) =>
+                {
+                    var productToUpdate = productList.FirstOrDefault(p => p.IdProduct == id);
+                    productToUpdate!.Name = product.Name;
+                    productToUpdate.Price = product.Price;     
+                });
+
+            var updatedProduct = new Products { IdProduct = productIdToUpdate, Name = "Produto Atualizado", Price = 50 };
+
+            mockRepository.Object.Update(productIdToUpdate, updatedProduct);
+
+            var result = productList.FirstOrDefault(p => p.IdProduct == productIdToUpdate);
+
+            Assert.Equal("Produto Atualizado", result!.Name);
+            Assert.Equal(50, result.Price);
         }
     }
 }
