@@ -1,0 +1,15 @@
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\bin\Debug\net8.0\SomaNumPares.exe
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\bin\Debug\net8.0\SomaNumPares.deps.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\bin\Debug\net8.0\SomaNumPares.runtimeconfig.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\bin\Debug\net8.0\SomaNumPares.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\bin\Debug\net8.0\SomaNumPares.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.AssemblyInfoInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.AssemblyInfo.cs
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.csproj.CoreCompileInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.sourcelink.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\refint\SomaNumPares.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\SomaNumPares.genruntimeconfig.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\SomaNumPares\obj\Debug\net8.0\ref\SomaNumPares.dll

@@ -1,0 +1,15 @@
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\bin\Debug\net8.0\Vetor.exe
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\bin\Debug\net8.0\Vetor.deps.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\bin\Debug\net8.0\Vetor.runtimeconfig.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\bin\Debug\net8.0\Vetor.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\bin\Debug\net8.0\Vetor.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.AssemblyInfoInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.AssemblyInfo.cs
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.csproj.CoreCompileInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.sourcelink.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\refint\Vetor.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\Vetor.genruntimeconfig.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\Vetor\obj\Debug\net8.0\ref\Vetor.dll

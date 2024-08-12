@@ -1,0 +1,15 @@
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\bin\Debug\net8.0\ContadorLetra.exe
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\bin\Debug\net8.0\ContadorLetra.deps.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\bin\Debug\net8.0\ContadorLetra.runtimeconfig.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\bin\Debug\net8.0\ContadorLetra.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\bin\Debug\net8.0\ContadorLetra.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.AssemblyInfoInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.AssemblyInfo.cs
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.csproj.CoreCompileInputs.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.sourcelink.json
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\refint\ContadorLetra.dll
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.pdb
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ContadorLetra.genruntimeconfig.cache
+C:\Users\49802002810\Desktop\Senai.4S-4DM\Exercicios de Logica parte 2\ContadorLetra\obj\Debug\net8.0\ref\ContadorLetra.dll
