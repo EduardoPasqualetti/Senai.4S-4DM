@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #1E52B4 100%, #002777 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+header .parte-cima {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    gap: 15px;
+    border-right: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+
+nav a.cadastro {
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+nav a.cadastro:hover {
+    background-color: #ff8533;
+}
+
+
+
+
+header .hero-content {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+header .hero-content .texts {
+    width: 40%;
+    align-self: center;
+    font-size: 24px;
+}
+
+#map {
+    margin-right: 40px;
+}
+
+
+
+
+.destinos {
+    padding: 20px;
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.div-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+.cards {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-cards {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.promo {
+    background-color: #f8f8f8;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.promo .promo-texts {
+    width: 40%;
+    font-size: 23px;
+}
+
+
+.contact {
+    background-color: #009C3B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+}
+
+.contact h2 {
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.contact div {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #FFDF00;
+    text-align: center;
+    margin: 0;
+    padding: 1px 0;
+}
+
+
