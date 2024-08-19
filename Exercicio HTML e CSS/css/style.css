@@ -1,6 +1,7 @@
 body {
     margin: 0;
     color: #333;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -50,14 +51,14 @@ nav a.cadastro:hover {
 
 
 
-header .hero-content {
+.hero-content {
     width: 95%;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-header .hero-content .texts {
+.hero-content .texts {
     width: 40%;
     align-self: center;
     font-size: 24px;
@@ -67,13 +68,49 @@ header .hero-content .texts {
     margin-right: 40px;
 }
 
+.search-bar {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #5F5C6B;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 450px;
+    font-size: 18px;
+}
+
+.search-bar div {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+
 
 
 
 .destinos {
     padding: 20px;
     width: 90%; 
-    margin: 0 auto; 
+    margin: 60px auto; 
 }
 
 .div-cards {
@@ -89,7 +126,7 @@ header .hero-content .texts {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: start;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -151,3 +188,68 @@ footer {
 }
 
 
+@media screen and (max-width: 768px) {
+    .parte-cima {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        align-self: flex-start;
+    }
+
+    nav a {
+        padding: 10px 0;
+        width: 100%;
+        text-align: left;
+        font-size: 1.1rem;
+    }
+
+    .cadastro { 
+        align-self: stretch;
+        text-align: center;
+    }
+
+    .hero-content {
+        gap: 30px;
+    }
+
+    .hero-content .texts  {
+        font-size: 14px;
+    }
+
+    .hero-content img {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .search-bar {
+       display: none;
+    }
+
+
+    .promo {
+        flex-direction: column;
+        
+    }
+
+    .promo .promo-texts {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #travel-image {
+        width: 80%; 
+        margin-top: 40px;
+    }
+
+
+    .contact h2 {
+        font-size: 24px;
+    }
+}
